@@ -1,4 +1,4 @@
-# SAAS landing page | Project-13 ![](https://img.shields.io/badge/Technologies-HTML--CSS-orange)
+# SAAS landing Page | Project-13 ![](https://img.shields.io/badge/Technologies-HTML--CSS-orange)
 
 Hello There,
 
@@ -11,13 +11,12 @@ I'm `Adnan Sarkar`. This is the 13th assignment in my [Full Stack Javascript](ht
 ## 🖥 Preview
 `note:` please make sure the preview screen is `1920 x 1080`
 
-[Live Preview]()
+[Live Preview](https://saas-landingpage-project-13-by-adnan-sarkar.netlify.app/)
 
-![]()
+![](SAAS%20landing%20Page.png)
 
 ##  What I have learned in this project?
 - Flex-box for elements alignment.
-- Clear understanding of CSS positioning property.
 
 ## ⏲ Time to finish the project
 It took me around 4 hours to complete this project.
