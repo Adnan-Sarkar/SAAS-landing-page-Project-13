@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+#hero {
+    padding: 50px 100px 100px 100px;
+    background-color: #7030CC;
+}
+
+/* ================ button css ================ */
+.btn-fill {
+    padding: 10px 20px;
+    background-color: #1BBCEF;
+}
+
+/* ================ navbar ================ */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-brand img {
+    width: 130px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items li {
+    margin-left: 50px;
+}
+
+.nav-items li:first-child {
+    margin-left: 0;
+}
+
+.nav-item {
+    color: #fff;
+    transition: color 200ms linear;
+}
+
+.nav-item:hover {
+    color: #20B4ED;
+    border-bottom: 1px solid #C868DD;
+}
+
+.nav-item.btn-fill:hover {
+    color: #2c2c2c;
+    border-bottom: none;
+}
+
+/* ================ hero content ================ */
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.hero-right img {
+    width: 630px;
+}
+
+/* ================ services ================ */
+#services {
+    margin: 200px 100px 100px 100px;
+}
+
+.services-contet {
+    display: flex;
+    justify-content: center;
+}
+
+.service-left {
+    margin-right: 200px;
+}
+
+.service-tittle {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.service-img img {
+    width: 730px;
+}
+
+.service-features {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.service-features-left {
+    margin-right: 20px;
+}
+
+.service-features-right h3 {
+    font-size: 25px;
+    font-weight: 200px;
+    margin-bottom: 15px;
+}
+
+.service-features-right p {
+    font-size: 18px;
+}
+
+.service-arrow-1 {
+    margin-top: 10px;
+    width: 20px;
+    fill: #F28A3F;
+}
+
+.service-arrow-2 {
+    margin-top: 10px;
+    width: 20px;
+    fill: #7ACA3A;
+}
+
+.service-arrow-3 {
+    margin-top: 10px;
+    width: 20px;
+    fill: #3F9CF2;
+}
+
+/* ================ features ================ */
+#features {
+    margin: 100px;
+}
+
+.features-tittle h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.feature-cards {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.40) 5px 3px 5px;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.feature-card-top {
+    margin: 20px 0;
+}
+
+.feature-card-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.dev-icon {
+    background-color: #FAEAEB;
+}
+
+.secure-icon {
+    background-color: #E9F4F6;
+}
+
+.support-icon {
+    background-color: #F2E7F5;
+}
+
+.data-icon {
+    background-color: #FBF0EE;
+}
+
+.feature-card-icon img {
+    width: 50px;
+}
+
+.feature-card-bottom {
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    transition: all 200ms linear;
+}
+
+.feature-card-bottom h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    transition: all 200ms linear;
+}
+
+.feature-card-bottom p {
+    padding: 0 30px;
+    transition: all 200ms linear;
+}
+
+.feature-card:hover .feature-card-bottom {
+    color: #fff;
+    background-color: #6429B7;
+}
+
+.feature-card-active {
+    background-color: #6429B7;
+    color: #fff;
+}
