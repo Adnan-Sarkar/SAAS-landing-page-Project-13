@@ -1,0 +1,338 @@
+/* ================ navbar responsive ================ */
+@media screen and (max-width: 1120px) {
+    nav {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        background-color: #7030CC;
+    }
+
+    .nav-items {
+        width: 100%;
+        position: fixed;
+        right: -100%;
+        top: 75px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #7030CC;
+        padding: 50px 0;
+        transition: all 300ms ease;
+    }
+
+    .nav-items li {
+        margin-left: 0;
+        margin: 30px 0;
+    }
+
+    .nav-responsive-btn {
+        display: block; 
+    }
+
+    #nav-btn-click:checked ~ .nav-items {
+        right: 0;
+    }
+
+    #nav-btn-click:checked ~ .nav-responsive-btn i::before {
+        content: '\f00d';
+    }
+
+    .nav-responsive-btn i {
+        font-size: 30px;
+        color: #fff;
+    }
+}
+
+
+/* ================ hero content responsive ================ */
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 771px) {
+    #hero {
+        padding: 50px 30px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 30px;
+    }
+
+    .hero-left h1 span {
+        display: none;
+    }
+
+    .hero-left p {
+        font-size: 15px;
+    }
+
+    .hero-left p span {
+        display: none;
+    }
+
+    .hero-right img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 772px) and (max-width: 910px) {
+
+    .hero-left h1 {
+        font-size: 35px;
+    }
+
+    .hero-left h1 span {
+        display: none;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+    }
+
+    .hero-left p span {
+        display: none;
+    }
+
+    .hero-right img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1199px) {
+    .hero-left h1 {
+        font-size: 40px;
+    }
+
+    .hero-left h1 span {
+        display: none;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+    }
+
+    .hero-left p span {
+        display: none;
+    }
+
+    .hero-right img {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+    .hero-left h1 {
+        font-size: 50px;
+    }
+
+    .hero-right img {
+        width: 500px;
+    }
+}
+
+
+
+/* ================ service responsive ================ */
+@media screen and (max-width: 769px) {
+    #services {
+        margin: 40px 35px;
+    }
+
+    .services-contet {
+        flex-direction: column-reverse;
+    }
+
+    .service-right {
+        width: 100%;
+    }
+
+    .service-tittle {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .service-left {
+        margin-right: 0;
+    }
+    
+    .service-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-img img {
+        width: 100%;
+    }
+
+    .service-features {
+        margin-bottom: 30px;
+    }
+
+    .service-features-right h3 {
+        font-size: 20px;
+    }
+
+    .service-features-right p {
+        font-size: 15px;
+    }
+
+    .service-features-right p span {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    #services {
+        margin: 80px 40px 100px 40px;
+    }
+
+    .service-left {
+        margin-right: 15px;
+    }
+
+    .service-tittle {
+        font-size: 25px;
+    }
+
+    .service-img img {
+        width: 400px;
+    }
+
+    .service-features {
+        margin-bottom: 30px;
+    }
+
+    .service-features-right h3 {
+        font-size: 20px;
+    }
+
+    .service-features-right p {
+        font-size: 16px;
+    }
+
+    .service-features-right p span {
+        display: none;
+    }
+
+    .service-arrow-1 {
+        margin-top: 5px;
+    }
+    
+    .service-arrow-2 {
+        margin-top: 5px;
+    }
+    
+    .service-arrow-3 {
+        margin-top: 5px;
+    }    
+}
+
+@media screen and (min-width: 999px) and (max-width: 1228px) {
+    #services {
+        margin: 100px 50px 100px 50px;
+    }
+
+    .service-left {
+        margin-right: 20px;
+    }
+
+    .service-tittle {
+        font-size: 30px;
+    }
+
+    .service-img img {
+        width: 500px;
+    }
+
+    .service-features-right h3 {
+        font-size: 20px;
+    }
+
+    .service-features-right p {
+        font-size: 16px;
+    }
+
+    .service-arrow-1 {
+        margin-top: 5px;
+    }
+    
+    .service-arrow-2 {
+        margin-top: 5px;
+    }
+    
+    .service-arrow-3 {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 1229px) and (max-width: 1560px) {
+    #services {
+        margin: 150px 50px 100px 50px;
+    }
+
+    .service-left {
+        margin-right: 100px;
+    }
+
+    .service-tittle {
+        font-size: 35px;
+    }
+
+    .service-img img {
+        width: 630px;
+    }
+}
+
+
+/* ================ features responsive ================ */
+@media screen and (max-width: 769px) {
+    #features {
+        margin: 50px 10px;
+    }
+
+    .features-tittle h2 {
+        font-size: 25px;
+    }
+
+    .feature-cards {
+        margin-top: 20px;
+    }
+
+    .feature-card-bottom h3 {
+        font-size: 20px;
+    }
+
+    .feature-card-bottom p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 769px) {
+    #features {
+        margin: 50px 30px;
+    }
+
+    .features-tittle h2 {
+        font-size: 25px;
+    }
+
+    .feature-cards {
+        margin-top: 20px;
+    }
+
+    .feature-card {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1559px) {
+    #features {
+        margin: 100px 30px 30px 30px;
+    }
+}
